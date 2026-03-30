@@ -10,7 +10,6 @@ class Solution {
             maxi=Math.max(maxi,sum);
         }
         return maxi ;
-        
     }
 }
 
