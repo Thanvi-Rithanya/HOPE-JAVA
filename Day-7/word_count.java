@@ -11,7 +11,7 @@ class Main {
 */
 //without using split function
 
-class Main {
+class Main{
     public static void main(String[] args) {
         String str="    HellO    hi how are you";
         boolean flag=true;
