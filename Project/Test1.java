@@ -43,18 +43,18 @@ class Library {
         }
     }
 
-    // Method to get the total number of books
+    // total books
     public int getBookCount() {
         return books.size();
     }
-    // Method to get a specific book by index safely
+    // index page
     public Book getBook(int index) {
         if (index >= 0 && index < books.size()) {
             return books.get(index);
         }
         return null;
     }
-    // Method to display book details by index
+    // Display
     public void displayBookDetails(int index) { 
         Book book = getBook(index);
         if (book != null) {
